@@ -1,0 +1,75 @@
+﻿@{
+    ViewData["Title"] = "My Schedule";
+}
+<style>
+
+    h1 {
+        font-family: 'Arial Rounded MT';
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    p {
+        font-family: 'Arial Rounded MT';
+        font-size: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    table {
+        font-family: 'Arial Rounded MT';
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 70px;
+    }
+
+    td {
+        border: 1px solid black;
+        padding: 20px;
+        text-align: center;
+        background-color: whitesmoke;
+    }
+
+    th {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+        background-color: #D8BFD8;
+    }
+
+    .salmon-bg {
+        background-color: #D8BFD8;
+    }
+
+    }
+</style>
+<h1>@ViewData["Title"]</h1>
+<p>This is my schedule in IT Elective 3 (Full Stack)</p>
+<table>
+    <tr>
+        <th rowspan="2">Section</th>
+        <th rowspan="2">Code</th>
+        <th rowspan="2">Course Title</th>
+        <th rowspan="2">Units</th>
+        <th colspan="2">Asynchronous</th>
+        <th colspan="2">Face to Face Time</th>
+        <th rowspan="2">Teacher</th>
+    </tr>
+    <tr>
+        <td class="salmon-bg">Day</td>
+        <td class="salmon-bg">Time</td>
+        <td class="salmon-bg">Day</td>
+        <td class="salmon-bg">Time</td>
+    </tr>
+    <tr>
+        <td>BSIT32E1</td>
+        <td>106-ELEC323</td>
+        <td>IT Elective 3</td>
+        <td>3</td>
+        <td>Thursday</td>
+        <td>1:00pm-2:00pm</td>
+        <td>Saturday</td>
+        <td>7:00am-10:00am</td>
+        <td>Prof. Alamo</td>
+    </tr>
+</table>

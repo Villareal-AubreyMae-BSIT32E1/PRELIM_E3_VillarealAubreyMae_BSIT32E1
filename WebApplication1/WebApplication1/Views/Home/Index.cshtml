@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    h1 {
+        font-family: 'Arial Rounded MT';
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-family: 'Arial Rounded MT';
+        text-align: center;
+       margin-bottom: 10px;
+    }
+    
+    h4{
+        font-family: 'Arial Rounded MT';
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    p {
+        font-family: 'Arial Rounded MT';
+        font-size: 20px;
+        margin-top: 3%;
+    }
+    nav{
+        background-color: beige;
+    }
+    .nav-links {
+        font-family: 'Arial Rounded MT';
+        background-color: #D8BFD8;
+        box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
+    }
+    .nav-links:hover{
+            background-color: #DDA0DD;
+    }
+
+    .Profile {
+        margin-top: 1%;
+        margin-left: 44%;
+        border-radius: 40%;
+        width: 100px;
+    }
+</style>
+<div class="head">
+    <h1>Welcome!</h1>
+    <img src="~/DP.jpg" alt="me" class="Profile" />
+    <h4>Bachelor of Science <br>In information Technology(BSIT)</h4>
+
+</div>
+<div class="text-center">
+    <h2 class="display-4">Hello! I'm Aubrey Mae Villareal.</h2>
+    <p>I'm 3rd year college in Lyceum of Alabang. My course is Bachelor of Science in Information Technology and I am from section BSIT32E1. </p>
+    <button class="nav-links"><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="School">My schedule</a></button>
+</div>
+
+
